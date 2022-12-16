@@ -1,13 +1,7 @@
-// const sayHello = function(name) {
-//     console.log("Hello" + name + "!!")
-// }
-
-export function hello() {
-    return "Hello";
+const sayHello = function(name) {
+    console.log("Hello" + name + "!!")
 }
 
-// module.exports = {
-//     sayHello
-// }
-
-// let demoPackage = require('@ankit-ratogi/github-action-package')
+module.exports = {
+    sayHello
+}
